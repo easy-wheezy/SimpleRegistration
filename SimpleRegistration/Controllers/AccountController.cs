@@ -6,7 +6,7 @@ using SimpleRegistration.Presentation.Registration;
 
 namespace SimpleRegistration.Controllers
 {
-    [Route("Account")]
+ 
     public class AccountController : Controller
     {
         private readonly IAccountRepository _accountRepository;
@@ -15,7 +15,7 @@ namespace SimpleRegistration.Controllers
         {
             _accountRepository = accountRepository;
         }
-
+   
         [HttpGet]
         public ActionResult Index()
         {

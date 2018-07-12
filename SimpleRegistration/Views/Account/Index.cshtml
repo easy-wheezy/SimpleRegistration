@@ -3,10 +3,8 @@
     ViewData["Title"] = "Index";
 }
 
-<script src="http://ajax.aspnetcdn.com/ajax/mvc/5.1/jquery.validate.unobtrusive.min.js"></script>
-
-
 <h2>Account Registration Page</h2>
+<div id="Notifications"></div>
 <form asp-action="RegisterAcount" asp-controller="Account" method="POST" data-ajax="true" data-ajax-update="#Notifications" data-ajax-mode="replace">
     <div>
         <div class="form-group">
@@ -30,5 +28,5 @@
         <input type="submit" value="Register Account" />
     </div>
 </form>
-<div id="Notifications"></div>
+
 
