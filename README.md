@@ -1,6 +1,6 @@
 SQL Setup
 
-Open Localdb instance in SSMS, and run the Setup script. (This script is rerunnable if you wish to restart)
+Open Localdb instance in SSMS, and run the Setup script in the SQL folder. (This script is rerunnable if you wish to restart)
 The database and App will expect windows Auth, so should work out the box. 
 
 Limitations/Caveats
